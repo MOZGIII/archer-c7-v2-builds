@@ -18,3 +18,7 @@ See branches of this repo.
    src/gz custom_openwrt_routing https://github.com/MOZGIII/archer-c7-v2-builds/raw/<branch>/packages/mips_24kc/routing
    src/gz custom_openwrt_telephony https://github.com/MOZGIII/archer-c7-v2-builds/raw/<branch>/packages/mips_24kc/telephony
    ```
+
+## Working on `master`
+
+When cloning this repo to work on documentation at the `master` branch, use `--depth 1` argument to decrease the download volume.
