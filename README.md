@@ -18,6 +18,8 @@ See branches of this repo.
    src/gz custom_openwrt_routing https://github.com/MOZGIII/archer-c7-v2-builds/raw/<branch>/packages/mips_24kc/routing
    src/gz custom_openwrt_telephony https://github.com/MOZGIII/archer-c7-v2-builds/raw/<branch>/packages/mips_24kc/telephony
    ```
+   
+   > Alternatively, you can replace the official feeds by chaning the URLs at the `/etc/opkg/distfeeds.conf`. Keep in mind that not all branches contain full builds; you can consult `config.seed` to determine build parameters.
 
 ## Working on `master`
 
