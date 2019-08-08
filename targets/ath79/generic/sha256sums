@@ -1,0 +1,7 @@
+eef81d786d021d518dd2f87082bb66602d4a0881d2d24c4fa2aae32f16c4ae4b *config.seed
+dc07f1d1d3835f396a08a7f6b778a8da57ddc8d3748d0219ab70db7a83281fd4 *openwrt-ath79-generic-device-tplink-archer-c7-v2.manifest
+9aba7dfbb1588f2fbaf398ff0513f84bf8897d270beb0c6857de8086a1f9a431 *openwrt-ath79-generic-tplink_archer-c7-v2-initramfs-kernel.bin
+5e29d6d7826848a1ecdaf65386f7e2abb32ec0eaa5832b8a526819f782d39058 *openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-factory-eu.bin
+f6dfbdd9bdbae88b40b4076ab6526d715ea0212867ebfefa06ba4070ac13ac99 *openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-factory-us.bin
+506fed06d914d24567ec02f6ed96ed454dd4a78a6fda8e2366ca8f25a35d4d4d *openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-factory.bin
+00d4444ad561b77869a696d3c206b6a655e19e98cf93734345024cbbf7d7d1d0 *openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-sysupgrade.bin
