@@ -1,0 +1,4 @@
+src-git packages file:///builder/submodules/packages^a10ad0e
+src-git luci file:///builder/submodules/luci^66749b4
+src-git routing file:///builder/submodules/routing^def3cd5
+src-git telephony file:///builder/submodules/telephony^d9625b5
