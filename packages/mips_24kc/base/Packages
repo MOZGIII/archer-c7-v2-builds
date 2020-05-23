@@ -1,0 +1,960 @@
+Package: ar3k-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 518083
+Filename: ar3k-firmware_20200122-1_mips_24kc.ipk
+Size: 518808
+SHA256sum: 5cd4751cba5d3a5759864ea677ece57612194975313cf138b4d61f1b0767d687
+Description:  ath3k firmware
+
+Package: ath10k-firmware-qca988x-ct
+Version: 2020-04-24-2
+Depends: libc
+Provides: ath10k-firmware-qca988x
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 189678
+Filename: ath10k-firmware-qca988x-ct_2020-04-24-2_mips_24kc.ipk
+Size: 190655
+SHA256sum: 0927abac5784d780dd0528a84792170a19f8c17ea6fbd0c3b0fd131d25f2e0a4
+Description:  Alternative ath10k firmware for QCA988X from Candela Technologies.
+ Enables IBSS and other features.  See:
+ http://www.candelatech.com/ath10k-10.1.php
+ This firmware will NOT be used unless the standard ath10k-firmware-qca988x
+ is un-selected since the driver will try to load firmware-5.bin before
+ firmware-2.bin
+
+Package: ath9k-htc-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 61890
+Filename: ath9k-htc-firmware_20200122-1_mips_24kc.ipk
+Size: 62390
+SHA256sum: 3fc10b60429da192f923fc64dd2fc75ee962c03a42d77a84faf4a8cbb32852c0
+Description:  AR9271/AR7010 firmware
+
+Package: b43legacy-firmware
+Version: 3.130.20.0-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 16441
+Filename: b43legacy-firmware_3.130.20.0-1_mips_24kc.ipk
+Size: 17014
+SHA256sum: aa501a2dd4ef9a195e21806e4114dce8ae48bd8e2914c9c6dcb282a56a7cddf3
+Description:  Broadcom bcm43xx b43legacy firmware
+
+Package: bnx2-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 705235
+Filename: bnx2-firmware_20200122-1_mips_24kc.ipk
+Size: 705362
+SHA256sum: 65cd29bfa4b33deee52ed44eb345ec2af60a216ec6e4c111062a8e1a00c8a123
+Description:  Broadcom BCM5706/5708/5709/5716 firmware
+
+Package: bnx2x-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 9174155
+Filename: bnx2x-firmware_20200122-1_mips_24kc.ipk
+Size: 9141263
+SHA256sum: fac3813940d9fd6c12d5cc119026701212d286f81693c6f629597d535178e3ed
+Description:  =QLogic 5771x/578xx firmware
+
+Package: brcmfmac-firmware-usb
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 502996
+Filename: brcmfmac-firmware-usb_20200122-1_mips_24kc.ipk
+Size: 503662
+SHA256sum: 9284f43a9acd50f5cd63384354e563654db22a5506833cf800f5a748a9aa4988
+Description:  Broadcom BCM43xx fullmac USB firmware
+
+Package: busybox
+Version: 1.31.1-1
+Depends: libc
+License: GPL-2.0
+Section: base
+CPE-ID: cpe:/a:busybox:busybox
+Essential: yes
+Architecture: mips_24kc
+Installed-Size: 208129
+Filename: busybox_1.31.1-1_mips_24kc.ipk
+Size: 208362
+SHA256sum: d65a407e6629760acf6e7438f71fdccdd3df99da041d9a63a725435b75587567
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.
+
+Package: carl9170-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 9770
+Filename: carl9170-firmware_20200122-1_mips_24kc.ipk
+Size: 10500
+SHA256sum: 8e733e1bb0b1d6560d98ef9a08d304874ab4ec6e45074c5abb80ee849965667b
+Description:  AR9170 firmware
+
+Package: chat
+Version: 2.4.8.git-2020-03-21-2
+Depends: libc
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: mips_24kc
+Installed-Size: 8370
+Filename: chat_2.4.8.git-2020-03-21-2_mips_24kc.ipk
+Size: 9212
+SHA256sum: 16496233a1d96e9dec29063e273e200e95449b308b31a8a06d12917cff1fbeb4
+Description:  This package contains an utility to establish conversation with other PPP servers
+ (via a modem).
+
+Package: dnsmasq
+Version: 2.81-2
+Depends: libc, libubus20191227
+License: GPL-2.0
+Section: net
+CPE-ID: cpe:/a:thekelleys:dnsmasq
+Architecture: mips_24kc
+Installed-Size: 117265
+Filename: dnsmasq_2.81-2_mips_24kc.ipk
+Size: 117732
+SHA256sum: 100d97851caf2910a8426279805a0d6703c82bc7117dcb980af61b729f8371e1
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+
+Package: dropbear
+Version: 2019.78-4
+Depends: libc
+Alternatives: 100:/usr/bin/ssh:/usr/sbin/dropbear, 100:/usr/bin/scp:/usr/sbin/dropbear
+License: MIT
+Section: net
+CPE-ID: cpe:/a:matt_johnston:dropbear_ssh_server
+Architecture: mips_24kc
+Installed-Size: 99772
+Filename: dropbear_2019.78-4_mips_24kc.ipk
+Size: 100577
+SHA256sum: 6db190655a4a198bd3657d233db6da58a05d9ba56585767eae77156d9d8fa5a1
+Description:  A small SSH2 server/client designed for small memory environments.
+
+Package: e100-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 837
+Filename: e100-firmware_20200122-1_mips_24kc.ipk
+Size: 1560
+SHA256sum: 0ac7be52e5361f126548020faa5a7ecec77c31fe8364537b757201ae018b681b
+Description:  Intel e100
+
+Package: edgeport-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 18905
+Filename: edgeport-firmware_20200122-1_mips_24kc.ipk
+Size: 19581
+SHA256sum: 6f8be029c871bc313e842348a3c74e841cd56456f20a7e5e6636628516b7f67f
+Description:  USB Inside Out Edgeport Serial Driver firmware
+
+Package: firewall
+Version: 2019-11-22-8174814a-1
+Depends: libc, libubox20191228, libubus20191227, libuci20130104, libip4tc2, libip6tc2, libxtables12, kmod-ipt-core, kmod-ipt-conntrack, kmod-nf-conntrack6, kmod-ipt-nat
+License: ISC
+Section: net
+Architecture: mips_24kc
+Installed-Size: 41108
+Filename: firewall_2019-11-22-8174814a-1_mips_24kc.ipk
+Size: 41763
+SHA256sum: 42052ff005061ee65356b50bce7b9f230a78e0287b737cc109a5dba6056fbbc9
+Description:  This package provides a config-compatible C implementation of the UCI firewall.
+
+Package: getrandom
+Version: 2019-12-31-0e34af14-3
+Depends: libc
+License: GPL-2.0
+Section: base
+Architecture: mips_24kc
+Installed-Size: 1636
+Filename: getrandom_2019-12-31-0e34af14-3_mips_24kc.ipk
+Size: 2393
+SHA256sum: a81002dcbe025121132ed1f580e39f12ebf414a59445c5e19720f65c01e91044
+Description:  OpenWrt getrandom system helper
+
+Package: hostapd-common
+Version: 2020-05-20-dd2daf08-2
+Depends: libc
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:w1.fi:hostapd
+Architecture: mips_24kc
+Installed-Size: 8387
+Filename: hostapd-common_2020-05-20-dd2daf08-2_mips_24kc.ipk
+Size: 9173
+SHA256sum: 0079994aa06f89435ce616e1e24720c49f393f309786ab6ae4dacd3cf7a43db0
+Description:  hostapd/wpa_supplicant common support files
+
+Package: iw
+Version: 5.4-1
+Depends: libc, libnl-tiny
+License: GPL-2.0
+Section: net
+Architecture: mips_24kc
+Installed-Size: 35000
+Filename: iw_5.4-1_mips_24kc.ipk
+Size: 35753
+SHA256sum: 497376d72bc52fc93b25c55612b146253fe9574df273d8aada2a6bae05aa2807
+Description:  cfg80211 interface configuration utility
+
+Package: iwl3945-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 63584
+Filename: iwl3945-firmware_20200122-1_mips_24kc.ipk
+Size: 64210
+SHA256sum: 0e48e009fb84d0f68d01cec73ec6487170562b151918cfd67a01a887d84e398c
+Description:  Intel IWL3945 firmware
+
+Package: iwl4965-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 78629
+Filename: iwl4965-firmware_20200122-1_mips_24kc.ipk
+Size: 79189
+SHA256sum: 61b5e6e394824bc0021a1d2ab856bef0374790203cfe7b90aae671ef2fb1630a
+Description:  Intel IWL4965 firmware
+
+Package: jshn
+Version: 2020-02-27-7da66430-1
+Depends: libc, libjson-c4, libubox20191228, libblobmsg-json
+License: ISC
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 5895
+Filename: jshn_2020-02-27-7da66430-1_mips_24kc.ipk
+Size: 6662
+SHA256sum: c684438734403b4f2281398e450026452e2a93c19e37adecdebb005b34c4e31a
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: jsonfilter
+Version: 2018-02-04-c7e938d6-1
+Depends: libc, libubox20191228, libjson-c4
+License: ISC
+Section: base
+Architecture: mips_24kc
+Installed-Size: 8239
+Filename: jsonfilter_2018-02-04-c7e938d6-1_mips_24kc.ipk
+Size: 9034
+SHA256sum: ca030221d62c885230e099d08c24f4b3582d3010a24b9d38a0783cf5b48b18da
+Description:  OpenWrt JSON filter utility
+
+Package: libblobmsg-json
+Version: 2020-02-27-7da66430-1
+Depends: libc, libjson-c4, libubox20191228
+License: ISC
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 3628
+Filename: libblobmsg-json_2020-02-27-7da66430-1_mips_24kc.ipk
+Size: 4356
+SHA256sum: cc10114ad6f20a07bd3689c44fe95d4e01366126e97d480a1ee9a0716465bca2
+Description:  blobmsg <-> json conversion library
+
+Package: libertas-sdio-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 348571
+Filename: libertas-sdio-firmware_20200122-1_mips_24kc.ipk
+Size: 349466
+SHA256sum: 5d0fef91e464db1e9a4a6e0fcf9f973f2ceeac62c196c3d3b75229dcb94c3366
+Description:  Marvell 8385/8686/8688 SDIO firmware
+
+Package: libertas-spi-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 92259
+Filename: libertas-spi-firmware_20200122-1_mips_24kc.ipk
+Size: 93074
+SHA256sum: 4373dcfb44dfdfaf9b125c7869b6d53c6277e5e364140c13a91edd9694120597
+Description:  Marvell 8686 SPI firmware
+
+Package: libertas-usb-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 216588
+Filename: libertas-usb-firmware_20200122-1_mips_24kc.ipk
+Size: 217338
+SHA256sum: 0421fcae2926420cf8b1641e70a590ef10e62572b487991774f8d1d3fd60078b
+Description:  Marvell 8388/8682 USB firmware
+
+Package: libjson-c4
+Version: 0.13.1-2
+Depends: libc
+Provides: libjson-c
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:json-c_project:json-c
+Architecture: mips_24kc
+Installed-Size: 19692
+Filename: libjson-c4_0.13.1-2_mips_24kc.ipk
+Size: 20463
+SHA256sum: 6ee983759401c3fb4b86f7febe85301b29a01e24a2ae5804ffef3dbae7e80535
+Description:  This package contains a library for javascript object notation backends.
+
+Package: libjson-script
+Version: 2020-02-27-7da66430-1
+Depends: libc, libubox20191228
+License: ISC
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 4678
+Filename: libjson-script_2020-02-27-7da66430-1_mips_24kc.ipk
+Size: 5401
+SHA256sum: 351c374d21b57998c92f1d4773f1ebdcf9b493f3fba4a69ea76c951ad8b4bb7e
+Description:  Minimalistic JSON based scripting engine
+
+Package: liblua5.1.5
+Version: 5.1.5-7
+Depends: libc
+Provides: liblua
+License: MIT
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 63628
+Filename: liblua5.1.5_5.1.5-7_mips_24kc.ipk
+Size: 64088
+SHA256sum: afa99fdb3bb8dc28ee1f4218f4916980df2102adbfec6b5d9bee3ae4392c532d
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: libmbedtls12
+Version: 2.16.6-1
+Depends: libc
+Provides: libmbedtls
+License: GPL-2.0-or-later
+Section: libs
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: mips_24kc
+Installed-Size: 177830
+Filename: libmbedtls12_2.16.6-1_mips_24kc.ipk
+Size: 178315
+SHA256sum: 83e371baa1d99274335260e427e9eed2bf9d17e62df6999cd20e5891bf7fba87
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
+
+Package: libnl-tiny
+Version: 2019-10-29-0219008c-1
+Depends: libc
+License: LGPL-2.1
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 12222
+Filename: libnl-tiny_2019-10-29-0219008c-1_mips_24kc.ipk
+Size: 12981
+SHA256sum: 7ef7272a2c8253a72e830c6bf87891765b54ee784dcfeafad03cc938ce894d7e
+Description:  This package contains a stripped down version of libnl
+
+Package: libubox20191228
+Version: 2020-02-27-7da66430-1
+Depends: libc
+Provides: libubox
+License: ISC
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 19074
+Filename: libubox20191228_2020-02-27-7da66430-1_mips_24kc.ipk
+Size: 19828
+SHA256sum: 2adb191d6a400886689e4c23beb7d7b6e0085a45c8a50fd4b90ae526441f4251
+Description:  Basic utility library
+
+Package: libubus20191227
+Version: 2020-02-05-171469e3-1
+Depends: libc, libubox20191228
+Provides: libubus
+License: LGPL-2.1
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 9162
+Filename: libubus20191227_2020-02-05-171469e3-1_mips_24kc.ipk
+Size: 9963
+SHA256sum: 954ad6489fc562d98fc1a3e916d38308d724807fe23786889f0593970111cc6f
+Description:  OpenWrt RPC client library
+
+Package: libuci20130104
+Version: 2020-04-24-ec8d3233-3
+Depends: libc, libubox20191228
+Provides: libuci
+License: LGPL-2.1
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 14748
+Filename: libuci20130104_2020-04-24-ec8d3233-3_mips_24kc.ipk
+Size: 15489
+SHA256sum: 4b2ffce6dead48d098bed4139d97fc8edae035c00f0ce304511aa16d1618a768
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libuclient20160123
+Version: 2020-02-15-af585dbd-1
+Depends: libc, libubox20191228
+Provides: libuclient
+License: ISC
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 9317
+Filename: libuclient20160123_2020-02-15-af585dbd-1_mips_24kc.ipk
+Size: 10106
+SHA256sum: f95393e72cd1ec9e46b3c6871bfdbd032689d6ec312188a8ac7aab186d200ff7
+Description:  HTTP/1.1 client library
+
+Package: libustream-mbedtls20200215
+Version: 2020-03-13-5e1bc342-1
+Depends: libc, libubox20191228, libmbedtls12
+Provides: libustream-mbedtls
+License: ISC
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 4167
+Filename: libustream-mbedtls20200215_2020-03-13-5e1bc342-1_mips_24kc.ipk
+Size: 4903
+SHA256sum: a05fddf589adc1028bd96a308841807f7e5c48184a04064f5450bf8f2e3d8e17
+Description:  ustream SSL Library (mbedtls)
+
+Package: logd
+Version: 2019-12-31-0e34af14-3
+Depends: libc, libubox20191228, libubus20191227, libblobmsg-json
+License: GPL-2.0
+Section: base
+Architecture: mips_24kc
+Installed-Size: 9404
+Filename: logd_2019-12-31-0e34af14-3_mips_24kc.ipk
+Size: 10085
+SHA256sum: 64b6e200cbdb65ea578236ef40d5d0b6c0c670f93f0692e909a5fa1ad47b199e
+Description:  OpenWrt system log implementation
+
+Package: mt7601u-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 26422
+Filename: mt7601u-firmware_20200122-1_mips_24kc.ipk
+Size: 27125
+SHA256sum: 9b164aa70037f58988c27837b1c208402e05da7f9e95f69b6c18e550672bbaf4
+Description:  MediaTek MT7601U firmware
+
+Package: mwifiex-pcie-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 514910
+Filename: mwifiex-pcie-firmware_20200122-1_mips_24kc.ipk
+Size: 515590
+SHA256sum: b4089e5e17b75626f15eb6c6028cd76afaa32783798063c5466e09945a1788c3
+Description:  Marvell 8897 firmware
+
+Package: mwifiex-sdio-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 438440
+Filename: mwifiex-sdio-firmware_20200122-1_mips_24kc.ipk
+Size: 438688
+SHA256sum: 7df7ca028cc1e608663223d205943f20e832092730f7a6d9c2bc64756eabcbbf
+Description:  Marvell 8887 firmware
+
+Package: mwl8k-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 192383
+Filename: mwl8k-firmware_20200122-1_mips_24kc.ipk
+Size: 193228
+SHA256sum: 5c4eb38a44567fb16108b0b517996c5ba34e6f6348cea9b1c4b0d24c48802455
+Description:  Marvell 8366/8687 firmware
+
+Package: netifd
+Version: 2020-05-17-74e0222e-3
+Depends: libc, libuci20130104, libnl-tiny, libubus20191227, ubus, ubusd, jshn, libubox20191228
+License: GPL-2.0
+Section: base
+Architecture: mips_24kc
+Installed-Size: 63233
+Filename: netifd_2020-05-17-74e0222e-3_mips_24kc.ipk
+Size: 63886
+SHA256sum: 92ff0a304413976bd94c559d36cc7bb49e6c2abbd0676ed04272a24b8cba148d
+Description:  OpenWrt Network Interface Configuration Daemon
+
+Package: odhcp6c
+Version: 2020-03-28-f575351c-16
+Depends: libc, libubox20191228
+License: GPL-2.0
+Section: net
+Architecture: mips_24kc
+Installed-Size: 23115
+Filename: odhcp6c_2020-03-28-f575351c-16_mips_24kc.ipk
+Size: 23830
+SHA256sum: 1242a52ab50970f59781994e855378069a77cc85f5393863926b4cd435acecd4
+Description:  Embedded DHCPv6-client for OpenWrt
+
+Package: odhcpd-ipv6only
+Version: 2020-05-04-5ce07702-3
+Depends: libc, libubox20191228, libuci20130104, libubus20191227, libnl-tiny
+License: GPL-2.0
+Section: net
+Architecture: mips_24kc
+Installed-Size: 35779
+Filename: odhcpd-ipv6only_2020-05-04-5ce07702-3_mips_24kc.ipk
+Size: 36683
+SHA256sum: 03afe9b02c531de0dc9589a0e7934873ec1431c83a45d9e865b51d088d66a400
+Description:  odhcpd is a daemon for serving and relaying IP management protocols to
+ configure clients and downstream routers. It tries to follow the RFC 6204
+ requirements for IPv6 home routers.
+ 
+ This is a variant providing server services for RA, stateless and stateful
+ DHCPv6,  prefix delegation and can be used to relay RA, DHCPv6 and NDP between
+ routed (non-bridged) interfaces in case no delegated prefixes are available.
+
+Package: openwrt-keyring
+Version: 2019-07-25-8080ef34-1
+Depends: libc
+Provides: lede-keyring
+License: GPL-2.0
+Section: base
+Architecture: mips_24kc
+Installed-Size: 1319
+Filename: openwrt-keyring_2019-07-25-8080ef34-1_mips_24kc.ipk
+Size: 2102
+SHA256sum: fee664f48e6ed2b1c1d1ba9122e44244fa89dbcc289902d04b1c2987ed06b80f
+Description:  The keyring of with the developer using and gpg public keys.
+
+Package: opkg
+Version: 2020-05-07-f2166a89-1
+Depends: libc, uclient-fetch, libpthread, libubox20191228
+License: GPL-2.0
+Section: base
+Essential: yes
+Architecture: mips_24kc
+Installed-Size: 58264
+Filename: opkg_2020-05-07-f2166a89-1_mips_24kc.ipk
+Size: 59251
+SHA256sum: 2800523ef860fefc958ab11c9f790cba6793c32ef82acedbc555c4212e38f179
+Description:  Lightweight package management system
+ opkg is the opkg Package Management System, for handling
+ installation and removal of packages on a system. It can
+ recursively follow dependencies and download all packages
+ necessary to install a particular package.
+ 
+ opkg knows how to install both .ipk and .deb packages.
+
+Package: p54-pci-firmware
+Version: 1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 23511
+Filename: p54-pci-firmware_1_mips_24kc.ipk
+Size: 24153
+SHA256sum: a1af91b332ac1f105cb91bec6f7e5701bc630ecdcb10e1486ff1afb309c2de7b
+Description:  p54-pci firmware
+
+Package: p54-usb-firmware
+Version: 1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 23803
+Filename: p54-usb-firmware_1_mips_24kc.ipk
+Size: 24456
+SHA256sum: 347f02b8b810a0ede4152b104c6b2306c0b8e201247b41ee51fa87dd2228327f
+Description:  p54-usb firmware
+
+Package: ppp-mod-pppoe
+Version: 2.4.8.git-2020-03-21-2
+Depends: libc, kmod-pppoe
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: mips_24kc
+Installed-Size: 9496
+Filename: ppp-mod-pppoe_2.4.8.git-2020-03-21-2_mips_24kc.ipk
+Size: 10307
+SHA256sum: 947690aab67c45a3138b0966536f93c5b75a45e2f845b9004ac7780229931a03
+Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
+
+Package: ppp
+Version: 2.4.8.git-2020-03-21-2
+Depends: libc, kmod-ppp
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: mips_24kc
+Installed-Size: 112597
+Filename: ppp_2.4.8.git-2020-03-21-2_mips_24kc.ipk
+Size: 113281
+SHA256sum: e946649c6b17c2db018d618968148f907a7b4db7d5c9416eb9d642a70ce2be95
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
+Package: prism54-firmware
+Version: 1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 80227
+Filename: prism54-firmware_1_mips_24kc.ipk
+Size: 81021
+SHA256sum: 4346c94bb855110a4a65046630d6f8211bb3da431762e9a69dd0298425b86f71
+Description:  prism54 firmware
+
+Package: procd
+Version: 2020-05-15-1ab539b3-1
+Depends: libc, ubusd, ubus, libjson-script, ubox, libubox20191228, libubus20191227, libblobmsg-json, libjson-c4
+License: GPL-2.0
+Section: base
+Architecture: mips_24kc
+Installed-Size: 45541
+Filename: procd_2020-05-15-1ab539b3-1_mips_24kc.ipk
+Size: 46018
+SHA256sum: 4bd03b493d92d32f80f49120429c6db98269046f075078b23774d96976e1e1b8
+Description:  OpenWrt system process manager
+
+Package: r8169-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 22113
+Filename: r8169-firmware_20200122-1_mips_24kc.ipk
+Size: 22817
+SHA256sum: f3b8dbd1e7f1a323f68787079d51b01ee3b6b4db4de6b03e6e0cf78fbf2a328b
+Description:  RealTek RTL8169 firmware
+
+Package: rs9113-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 84660
+Filename: rs9113-firmware_20200122-1_mips_24kc.ipk
+Size: 85232
+SHA256sum: adcb36b7e32ff423f0d9e000283669e4f2ce2b023466eb048394f6b33659696a
+Description:  RedPine Signals rs9113 firmware
+
+Package: rt2800-pci-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 3969
+Filename: rt2800-pci-firmware_20200122-1_mips_24kc.ipk
+Size: 4695
+SHA256sum: 36e68df03a6aa3f61699dbe602140193c5220bfa57ad69b692c77fa59e01ac9f
+Description:  Ralink RT28xx/3xxx PCI/SoC firmware
+
+Package: rt2800-usb-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 2939
+Filename: rt2800-usb-firmware_20200122-1_mips_24kc.ipk
+Size: 3645
+SHA256sum: f0c7a96a2ddc0b8db0a67bfdb59f83ed3e58e3b8aaaa3ce6f7678d3e18bb10cb
+Description:  Ralink RT28xx/3xxx USB firmware
+
+Package: rt61-pci-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 6502
+Filename: rt61-pci-firmware_20200122-1_mips_24kc.ipk
+Size: 7217
+SHA256sum: 331717f9c3b0a5d4153ca12aff7773cbe03e016f70a16eeac2402e09d26026aa
+Description:  Ralink RT2561 firmware
+
+Package: rt73-usb-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 1320
+Filename: rt73-usb-firmware_20200122-1_mips_24kc.ipk
+Size: 2038
+SHA256sum: aa1034d96d38fb73b18e9277178c0d5f1fde56ebc642d92d586792854089df0c
+Description:  Ralink RT2573 firmware
+
+Package: rtl8192ce-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 20759
+Filename: rtl8192ce-firmware_20200122-1_mips_24kc.ipk
+Size: 21465
+SHA256sum: e28ab2fb659ef9f76b795bde36fda4ad69fc7d2a31a2e23600d6f2c31057b649
+Description:  RealTek RTL8192CE firmware
+
+Package: rtl8192cu-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 16961
+Filename: rtl8192cu-firmware_20200122-1_mips_24kc.ipk
+Size: 17661
+SHA256sum: d3a4bdf8016b6cfe32cf010b4e39d71ad7dce10396ee4635ba4448167c9a09e6
+Description:  RealTek RTL8192CU firmware
+
+Package: rtl8192de-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 13530
+Filename: rtl8192de-firmware_20200122-1_mips_24kc.ipk
+Size: 14255
+SHA256sum: eab5f9ce0dffe7057781c1ba9dc8885ca6f7bcf11bdb79dd9189fbeefc4316d7
+Description:  RealTek RTL8192DE firmware
+
+Package: rtl8192se-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 36780
+Filename: rtl8192se-firmware_20200122-1_mips_24kc.ipk
+Size: 37495
+SHA256sum: fa41b62c0d26f323a2f5b150b72adff6dd6bfd3ea179374d5cc0d46689692a12
+Description:  RealTek RTL8192SE firmware
+
+Package: rtl8192su-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 63233
+Filename: rtl8192su-firmware_20200122-1_mips_24kc.ipk
+Size: 64001
+SHA256sum: b20a3092d62d1a5b58cda352d99673144768f94c4ed567e18074b18e655ca34b
+Description:  RealTek RTL8192SU firmware
+
+Package: rtl8821ae-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 23999
+Filename: rtl8821ae-firmware_20200122-1_mips_24kc.ipk
+Size: 24685
+SHA256sum: 60d4ae37e179c752e4449d8b1fa5611be31f68658f20246f12273bb0338e45c7
+Description:  RealTek RTL8821AE firmware
+
+Package: swconfig
+Version: 12
+Depends: libc, libuci20130104, libnl-tiny
+License: GPL-2.0
+Section: base
+Architecture: mips_24kc
+Installed-Size: 7310
+Filename: swconfig_12_mips_24kc.ipk
+Size: 8098
+SHA256sum: 23295005acba1f2c5ac90d3e97615f52dce9c7b4012b0554993857774114abd3
+Description:  Switch configuration utility
+
+Package: ubox
+Version: 2019-12-31-0e34af14-3
+Depends: libc, libubox20191228, ubusd, ubus, libubus20191227, libuci20130104
+License: GPL-2.0
+Section: base
+Architecture: mips_24kc
+Installed-Size: 13482
+Filename: ubox_2019-12-31-0e34af14-3_mips_24kc.ipk
+Size: 14211
+SHA256sum: 38d66f73a043579d0ac90df4900ef55e18f67edeea736b6c4e8491b02a095340
+Description:  OpenWrt system helper toolbox
+
+Package: ubus
+Version: 2020-02-05-171469e3-1
+Depends: libc, libubus20191227, libblobmsg-json, ubusd
+License: LGPL-2.1
+Section: base
+Architecture: mips_24kc
+Installed-Size: 5581
+Filename: ubus_2020-02-05-171469e3-1_mips_24kc.ipk
+Size: 6340
+SHA256sum: ac04b63a512fd24b084f646ed8cbab8ee99bda9eb4e5a17f08e0d7d9e58a9285
+Description:  OpenWrt RPC client utility
+
+Package: ubusd
+Version: 2020-02-05-171469e3-1
+Depends: libc, libubox20191228, libblobmsg-json
+License: LGPL-2.1
+Section: base
+Architecture: mips_24kc
+Installed-Size: 11204
+Filename: ubusd_2020-02-05-171469e3-1_mips_24kc.ipk
+Size: 11954
+SHA256sum: a468fcbfb0d24245b05418ff9c6d38c9f61c58b31dff508d970f59bfce6348ef
+Description:  OpenWrt RPC daemon
+
+Package: uci
+Version: 2020-04-24-ec8d3233-3
+Depends: libc, libuci20130104
+License: LGPL-2.1
+Section: base
+Architecture: mips_24kc
+Installed-Size: 6451
+Filename: uci_2020-04-24-ec8d3233-3_mips_24kc.ipk
+Size: 7241
+SHA256sum: f0b8cd5964e59b61178be2b92a3215377b877f0a18615cd25594d88f0e38dd50
+Description:  Utility for the Unified Configuration Interface (UCI)
+
+Package: uclient-fetch
+Version: 2020-02-15-af585dbd-1
+Depends: libc, libuclient20160123
+Provides: wget
+Alternatives: 200:/usr/bin/wget:/bin/uclient-fetch
+License: ISC
+Section: net
+Architecture: mips_24kc
+Installed-Size: 6680
+Filename: uclient-fetch_2020-02-15-af585dbd-1_mips_24kc.ipk
+Size: 7481
+SHA256sum: 44f36d82e1603e46523e55a94575b191bf04c109bf7809791986c6bb6f0ad2de
+Description:  Tiny wget replacement using libuclient
+
+Package: urandom-seed
+Version: 1.0-1
+Depends: libc, getrandom
+License: GPL-2.0
+Section: base
+Architecture: mips_24kc
+Installed-Size: 837
+Filename: urandom-seed_1.0-1_mips_24kc.ipk
+Size: 1554
+SHA256sum: 2f9ba41b5558631545dde036f705f51ebceda783f58dce0430bdcec82777d5ba
+Description:  /etc/urandom.seed handling for OpenWrt
+
+Package: urngd
+Version: 2020-01-21-c7f7b6b6-1
+Depends: libc, libubox20191228
+License: GPL-2.0 BSD-3-Clause
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 4789
+Filename: urngd_2020-01-21-c7f7b6b6-1_mips_24kc.ipk
+Size: 5764
+SHA256sum: cbc151cf77bdcb51e11c96746f4ccd0525f70c8e590faa7e22f907e18ae5f290
+Description:  urngd is OpenWrt's micro non-physical true random number generator based on
+ timing jitter.
+ 
+ Using the Jitter RNG core, the rngd provides an entropy source that feeds into
+ the Linux /dev/random device if its entropy runs low. It updates the
+ /dev/random entropy estimator such that the newly provided entropy unblocks
+ /dev/random.
+ 
+ The seeding of /dev/random also ensures that /dev/urandom benefits from
+ entropy. Especially during boot time, when the entropy of Linux is low, the
+ Jitter RNGd provides a source of sufficient entropy.
+
+Package: usign
+Version: 2019-09-21-f34a383e-1
+Depends: libc, libubox20191228
+License: ISC
+Section: base
+Architecture: mips_24kc
+Installed-Size: 11217
+Filename: usign_2019-09-21-f34a383e-1_mips_24kc.ipk
+Size: 11962
+SHA256sum: 332c919447244088e2efc85bd4f77d87bf895f273cfbb2ddb045e8d0b8d14e4d
+Description:  OpenWrt signature verification utility
+
+Package: wireless-regdb
+Version: 2020.04.29-1
+Depends: libc
+Section: firmware
+Architecture: all
+Installed-Size: 1867
+Filename: wireless-regdb_2020.04.29-1_all.ipk
+Size: 2591
+SHA256sum: 2aa71005b1c9582ab28d6a5efc9e3a5959bf8521b747df2f5d54d52f9d789f8f
+Description:  Wireless Regulatory Database
+
+Package: wl12xx-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 1175104
+Filename: wl12xx-firmware_20200122-1_mips_24kc.ipk
+Size: 1175106
+SHA256sum: 2db64774783a84ab0b7f44d9d6d611941559919395e2767bd9a6e9462902f4be
+Description:  TI WL12xx firmware
+
+Package: wl18xx-firmware
+Version: 20200122-1
+Depends: libc
+Section: firmware
+Architecture: mips_24kc
+Installed-Size: 342266
+Filename: wl18xx-firmware_20200122-1_mips_24kc.ipk
+Size: 342730
+SHA256sum: 96f1824afb98e32238bdf426201d96ce6f98ab23b56a15a0aacd0a78bcec74e2
+Description:  TI WL18xx firmware
+
+Package: wpad-basic
+Version: 2020-05-20-dd2daf08-2
+Depends: libc, libnl-tiny, hostapd-common, libubus20191227
+Conflicts: hostapd, hostapd-basic, hostapd-mini, hostapd-openssl, hostapd-wolfssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl
+Provides: hostapd, wpa-supplicant
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:w1.fi:hostapd
+Architecture: mips_24kc
+Installed-Size: 349997
+Filename: wpad-basic_2020-05-20-dd2daf08-2_mips_24kc.ipk
+Size: 350411
+SHA256sum: fd3e16caf9f18c9a313663bad61b6dbc57bf9ed3d8e9fbc795aba51260d83154
+Description:  This package contains a basic IEEE 802.1x/WPA Authenticator and Supplicant with WPA-PSK, 802.11r and 802.11w support.
+
+Package: wwan
+Version: 2019-04-29-5
+Depends: libc
+License: GPL-2.0
+Section: net
+Architecture: mips_24kc
+Installed-Size: 9999
+Filename: wwan_2019-04-29-5_mips_24kc.ipk
+Size: 9789
+SHA256sum: 13ec38ea5a30cfe84a9ff690bdbbecf9166be09082c85b3acdf75c984d8a004f
+Description:  Generic OpenWrt 3G/4G proto handler
+
