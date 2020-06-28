@@ -1,0 +1,2 @@
+src-git packages file:///builder/submodules/packages^0be867b
+src-git luci file:///builder/submodules/luci^1452b7b
